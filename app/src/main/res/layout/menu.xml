@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="left"
+        android:text="BTNAVAL"
+        android:textAlignment="gravity"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENVIO DE LETRA"
+        android:id="@+id/envio_letra"
+        android:height="80dp"
+        android:width="200dp"
+        android:layout_below="@+id/textView3"
+        android:focusableInTouchMode="true"
+        android:textColor="#FB0303"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENVIO Y RECEPCION DE LETRA"
+        android:id="@+id/envio_rec_letra"
+        android:width="200dp"
+        android:height="80dp"
+        android:layout_below="@+id/envio_letra"
+        android:layout_alignStart="@+id/envio_letra"
+        android:layout_marginTop="41dp"
+        android:textColor="#FB0303"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADIVINA UN #"
+        android:id="@+id/adivina"
+        android:width="200dp"
+        android:height="80dp"
+        android:layout_below="@+id/envio_rec_letra"
+        android:layout_marginTop="41dp"
+        android:textColor="#FB0303"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BATTLESHIPS"
+        android:id="@+id/batalla_naval"
+        android:height="80dp"
+        android:width="200dp"
+        android:layout_above="@+id/textView2"
+        android:layout_alignStart="@+id/adivina"
+        android:textColor="#FB0303"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COPY RIGHT METODOS Y MODELADO DE DESARROLLO DE SOFTWARE UPAEP 2015"
+        android:id="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
